@@ -9,7 +9,7 @@ local ground     = love.graphics.newImage('ground.png')
 
 function love.load()
     love.graphics.setDefaultFilter('nearest','nearest')
-    love.window.setTitle('Flappy Jaune')
+    love.window.setTitle('Flappy-0 Jaune')
 
     push:setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, WINDOW_WIDTH, WINDOW_HEIGHT)
 end
