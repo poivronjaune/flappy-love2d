@@ -18,7 +18,6 @@ function love.load()
         resizable=true,
         vsync = true
     })
-    --push:setupScreen(1280, 720, 800, 600, false) 
 end
 
 function love.resize(w, h)
